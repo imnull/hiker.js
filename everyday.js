@@ -3,8 +3,8 @@
  * 这时会返回一个 [object XXX] 的字符串，XXX就是对象构造函数的名称
  * 此方法用于判断复杂JS类型，弥补typeof的盲区
  */
-function tStr(o){ return(typeof(o)) }
 function oStr(o){ return(Object.prototype.toString.call(o)) }
+function tStr(o){ return(typeof(o)) }
 function isNumber(o){ return(tStr(o) == 'number') }
 function isString(o){ return(tStr(o) == 'string') }
 function isBoolean(o){ return(tStr(o) == 'boolean') }
