@@ -127,6 +127,9 @@ var STR = {
 	each : function(str, callback){
 		ARR.each(str, callback);
 	},
+	/*
+	 * 计算一个字符串里某个字符的个数
+	 */
 	count : function(str, subStr){
 		var i = 0, idx = -1;
 		while((idx = str.indexOf(subStr, idx + 1)) > -1)++i;
