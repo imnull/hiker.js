@@ -1,7 +1,7 @@
 hiker.js
 ========
 
-UI Library
+Javascript Library
 
 ========
 
